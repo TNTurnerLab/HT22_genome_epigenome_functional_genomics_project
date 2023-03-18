@@ -25,7 +25,18 @@ bsub -g /tychele/dv -n 1 -M 100G -G compute-tychele -R 'rusage[mem=100G] span[ho
 sh post_hifiasm_ht22.sh
 ```
 
+## Mapping reads to reference genome
+### Resource files
 
+#### Reference Genome (mm10)
+```
+wget http://hgdownload.cse.ucsc.edu/goldenpath/mm10/bigZips/mm10.fa.gz
+```
+
+### Server submssion (run on WashU RIS LSF server, basic submission components listed below)
+```
+bsub -R 'span[hosts=1] rusage[mem=300G]' -g /tychele/dv -n 31 -M 300G -q tychele -G compute-tychele -oo map_reads.oo -a "docker(tychelewustl/pbseqtools:version1)" sh map_reads.sh
+```
 
 
 
