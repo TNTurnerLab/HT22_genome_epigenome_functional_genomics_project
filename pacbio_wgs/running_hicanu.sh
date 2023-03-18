@@ -1,4 +1,8 @@
 #!/bin/bash
+# Tychele N. Turner, Ph.D.
+# Last update: March 18, 2023
+# HiCanu analysis workflow
+
 export PATH=/opt/conda/bin:$PATH
 
 SAMPLE='HT22'
