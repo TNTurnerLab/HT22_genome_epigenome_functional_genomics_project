@@ -17,7 +17,7 @@ bsub -R 'span[hosts=1] rusage[mem=310G]' -g /tychele/dv -n 31 -M 310G -q tychele
 bsub -R 'span[hosts=1] rusage[mem=2700G]' -g /tychele/dv -n 62 -M 2700G -q tychele -G compute-tychele -oo ht22_hifiasm.oo -a "docker(tychelewustl/hifiasm:version2)" sh running_hifiasm_ht22.sh
 ```
 
-### Post-Assembly Calculations
+### Post-Assembly Calculations for Hifiasm
 ```
 bsub -g /tychele/dv -n 1 -M 100G -G compute-tychele -R 'rusage[mem=100G] span[hosts=1]' -q general-interactive -Is -a 'docker(tychelewustl/gfatools_caln50:version1)' /bin/bash
 
