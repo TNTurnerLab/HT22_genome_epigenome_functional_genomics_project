@@ -1,0 +1,2 @@
+genome mm10
+trackDb https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/trackDb.txt

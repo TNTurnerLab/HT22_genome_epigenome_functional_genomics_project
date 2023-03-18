@@ -1,0 +1,5 @@
+hub HT22
+shortLabel HT22_genome_epigenome_functional_genome
+longLabel Turner Lab at WashU HT22 Genome, Epigenome, and Functional Genomics Project
+genomesFile https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/genomes.txt
+email tychele@wustl.edu
