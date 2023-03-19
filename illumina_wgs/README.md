@@ -17,8 +17,11 @@ bsub -R 'span[hosts=1] rusage[mem=300G]' -n 31 -M 300G -q tychele -G compute-tyc
 wget http://hgdownload.cse.ucsc.edu/goldenpath/mm10/bigZips/mm10.fa.gz
 ```
 
-
-
-
+## DeepVariant
+### Server submssion (run on WashU RIS LSF server, basic submission components listed below)
+```
+SAMPLE='HT22'
+bsub -g /tychele/dv -n 8 -M 100GB -G compute-tychele -R 'rusage[mem=100GB] span[hosts=1]' -q tychele -oo "$SAMPLE"_deepvariant.oo -a 'docker(google/deepvariant:1.0.0)' sh deepvariant.sh "$SAMPLE"
+```
 
 
