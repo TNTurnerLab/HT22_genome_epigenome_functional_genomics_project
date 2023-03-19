@@ -4,3 +4,11 @@ longLabel Clustered Mapped Isoforms from HT-22 cell line PacBio RNA Iso-Seq data
 type bam
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22-isoseq.clustered.mapped.bam
 visibility squish
+
+track HT22_Illumina_WGS_DeepVariant_VCF
+shortLabel HT22_Illumina_WGS_DeepVariant_VCF
+longLabel SNV and INDEL calls generated using DeepVariant on Illumina WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type vcfTabix
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22.deepvariant.illumina.wgs.vcf.gz
+visibility dense
+
