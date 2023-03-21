@@ -25,6 +25,7 @@ bsub -g /tychele/dv -n 8 -M 100GB -G compute-tychele -R 'rusage[mem=100GB] span[
 ```
 
 ###DeepVariant HTML report
+
 `HT22.deepvariant.illumina.wgs.visual_report.html`
 
 
