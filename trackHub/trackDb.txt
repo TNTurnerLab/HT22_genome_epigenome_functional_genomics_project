@@ -12,3 +12,32 @@ type vcfTabix
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22.deepvariant.illumina.wgs.vcf.gz
 visibility dense
 
+track HT22_Illumina_ATACSeq_Replicate1_Peaks
+shortLabel HT22 ATACSeq Rep1 Peaks
+longLabel ATACSeq Peaks from Replicate 1 of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type bigBed 5
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT-22_20221215_ATACSeq_QC.1.HJ5VFDSX5_TAAGGCGAAT-TCTACTCTGT_L001_R1.trim.merged.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.bb
+visibility hide
+
+track HT22_Illumina_ATACSeq_Replicate2_Peaks
+shortLabel HT22 ATACSeq Rep2 Peaks
+longLabel ATACSeq Peaks from Replicate 2 of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type bigBed 5
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT-22_20221215_ATACSeq_QC.2.HJ5VFDSX5_CGTACTAGAT-AGAGGATAGT_L001_R1.trim.merged.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.bb
+visibility hide
+
+track HT22_Illumina_ATACSeq_Replicate3_Peaks
+shortLabel HT22 ATACSeq Rep3 Peaks
+longLabel ATACSeq Peaks from Replicate 3 of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type bigBed 5
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT-22_20221215_ATACSeq_QC.3.HJ5VFDSX5_AGGCAGAAAT-ATAGAGAGGT_L001_R1.trim.merged.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.bb
+visibility hide
+
+track HT22_Illumina_ATACSeq_Pooled_Peaks
+shortLabel HT22 ATACSeq Pooled Peaks
+longLabel ATACSeq Pooled Peaks from 3 Replicates of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type bigBed 5
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/rep.pooled.pval0.01.300K.bfilt.narrowPeak.bb
+visibility dense
+
+
