@@ -24,8 +24,7 @@ SAMPLE='HT22'
 bsub -g /tychele/dv -n 8 -M 100GB -G compute-tychele -R 'rusage[mem=100GB] span[hosts=1]' -q tychele -oo "$SAMPLE"_deepvariant.oo -a 'docker(google/deepvariant:1.0.0)' sh deepvariant.sh "$SAMPLE"
 ```
 
-###DeepVariant HTML report
-
+### DeepVariant HTML report
 `HT22.deepvariant.illumina.wgs.visual_report.html`
 
 
