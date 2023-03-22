@@ -12,6 +12,13 @@ type vcfTabix
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22.deepvariant.illumina.wgs.vcf.gz
 visibility dense
 
+track HT22_PacBio_WGS_DeepVariant_VCF
+shortLabel HT22_PacBio_WGS_DeepVariant_VCF
+longLabel SNV and INDEL calls generated using DeepVariant on PacBio WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type vcfTabix
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22.deepvariant.pacbio.wgs.vcf.gz
+visibility dense
+
 track HT22_Illumina_ATACSeq_Replicate1_Peaks
 shortLabel HT22 ATACSeq Rep1 Peaks
 longLabel ATACSeq Peaks from Replicate 1 of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
@@ -40,4 +47,75 @@ type bigBed 5
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/rep.pooled.pval0.01.300K.bfilt.narrowPeak.bb
 visibility dense
 
+track HT22_Illumina_ATACSeq_Replicate1_MACS_FC
+shortLabel HT22 ATACSeq Rep1 FC
+longLabel ATACSeq MACS FC Values from Replicate 1 of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type bigWig
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT-22_20221215_ATACSeq_QC.1.HJ5VFDSX5_TAAGGCGAAT-TCTACTCTGT_L001_R1.trim.merged.srt.nodup.no_chrM_MT.tn5.fc.signal.bigwig
+visibility hide
+autoScale off
+viewLimits 0:15
+
+track HT22_Illumina_ATACSeq_Replicate1_MACS_Pvalue
+shortLabel HT22 ATACSeq Rep1 P Value
+longLabel ATACSeq MACS P-Values from Replicate 1 of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type bigWig
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT-22_20221215_ATACSeq_QC.1.HJ5VFDSX5_TAAGGCGAAT-TCTACTCTGT_L001_R1.trim.merged.srt.nodup.no_chrM_MT.tn5.pval.signal.bigwig
+visibility hide
+autoScale off
+viewLimits 0:15
+
+track HT22_Illumina_ATACSeq_Replicate2_MACS_FC
+shortLabel HT22 ATACSeq Rep2 FC
+longLabel ATACSeq MACS FC Values from Replicate 2 of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type bigWig
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT-22_20221215_ATACSeq_QC.2.HJ5VFDSX5_CGTACTAGAT-AGAGGATAGT_L001_R1.trim.merged.srt.nodup.no_chrM_MT.tn5.fc.signal.bigwig
+visibility hide
+autoScale off
+viewLimits 0:15
+
+track HT22_Illumina_ATACSeq_Replicate2_MACS_Pvalue
+shortLabel HT22 ATACSeq Rep2 P Value
+longLabel ATACSeq MACS P-Values from Replicate 2 of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type bigWig
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT-22_20221215_ATACSeq_QC.2.HJ5VFDSX5_CGTACTAGAT-AGAGGATAGT_L001_R1.trim.merged.srt.nodup.no_chrM_MT.tn5.pval.signal.bigwig
+visibility hide
+autoScale off
+viewLimits 0:15
+
+track HT22_Illumina_ATACSeq_Replicate3_MACS_FC
+shortLabel HT22 ATACSeq Rep3 FC
+longLabel ATACSeq MACS FC Values from Replicate 3 of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type bigWig
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT-22_20221215_ATACSeq_QC.3.HJ5VFDSX5_AGGCAGAAAT-ATAGAGAGGT_L001_R1.trim.merged.srt.nodup.no_chrM_MT.tn5.fc.signal.bigwig
+visibility hide
+autoScale off
+viewLimits 0:15
+
+track HT22_Illumina_ATACSeq_Replicate3_MACS_Pvalue
+shortLabel HT22 ATACSeq Rep3 P Value
+longLabel ATACSeq MACS P-Values from Replicate 3 of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type bigWig
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT-22_20221215_ATACSeq_QC.3.HJ5VFDSX5_AGGCAGAAAT-ATAGAGAGGT_L001_R1.trim.merged.srt.nodup.no_chrM_MT.tn5.pval.signal.bigwig
+visibility hide
+autoScale off
+viewLimits 0:15
+
+track HT22_Illumina_ATACSeq_Pooled_Replicates_MACS_FC
+shortLabel HT22 ATACSeq Pooled Rep FC
+longLabel ATACSeq MACS FC Values from Pooled Replicates of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type bigWig
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/rep.pooled.fc.signal.bigwig
+visibility full
+autoScale off
+viewLimits 0:15
+
+track HT22_Illumina_ATACSeq_Pooled_Replicates_MACS_Pvalue
+shortLabel HT22 ATACSeq Pooled Rep P Value
+longLabel ATACSeq MACS P-Values from Pooled Replicates of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type bigWig
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/rep.pooled.pval.signal.bigwig
+visibility full
+autoScale off
+viewLimits 0:15
 
