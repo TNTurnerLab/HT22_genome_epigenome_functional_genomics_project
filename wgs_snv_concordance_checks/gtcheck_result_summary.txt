@@ -1,0 +1,2 @@
+[1]CN	[2]Discordance with 20230110_HT_22_1_Fraction1_Fraction2 (total	[3]Discordance (avg score per site)	[4]Number of sites compared	[5]Sample	[6]Sample ID	Concordance
+CN	263572	263572	7144018	HT22	0	96.31
