@@ -144,10 +144,24 @@ type bigBed
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/EnhancerAtlas_2.0_Fetal_brain_mm10.bb
 visibility dense
 
-track EnhancerAtlas_2.0_Human_Enhancers
-shortLabel EnhancerAtlas 2.0 Human Enhancers
-longLabel EnhancerAtlas 2.0 Human Enhancers Mapped to mm10
+track EnhancerAtlas_2.0_Mouse_E14.5_Brain_Enhancers
+shortLabel EnhancerAtlas 2.0 Mouse E14.5 Brain Enhancers
+longLabel EnhancerAtlas 2.0 Mouse E14.5 Brain Enhancers Mapped to mm10
 type bigBed
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/EnhancerAtlas_2.0_hs_mm10.bb
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/EnhancerAtlas_2.0_Brain_E14.5_mm10.bb
+visibility dense
+
+track EnhancerAtlas_2.0_Mouse_Brain_Enhancers
+shortLabel EnhancerAtlas 2.0 Mouse Brain Enhancers
+longLabel EnhancerAtlas 2.0 Mouse Brain Enhancers Mapped to mm10
+type bigBed
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/EnhancerAtlas_2.0_brain_mm10.bb
+visibility dense
+
+track VISTA_Enhancers
+shortLabel VISTA Enhancers
+longLabel VISTA Enhancers Mapped to mm10
+type bigBed
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/vista_enhancer_browser_table_from_vista_website_03212023_mm10.bb
 visibility dense
 
