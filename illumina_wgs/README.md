@@ -39,6 +39,7 @@ bsub -g /tychele/dv -n 8 -M 50GB -G compute-tychele -R 'rusage[mem=50GB] span[ho
 ```
 
 ### Run per chromosome, mouse has 19 autosomes
+```
 for i in {1..19}
 do
 sh submit_mosdepth.sh HT22 chr"$i"
