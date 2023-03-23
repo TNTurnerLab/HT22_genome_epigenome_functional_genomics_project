@@ -24,7 +24,7 @@ shortLabel HT22 Illumina WGS Depth
 longLabel Depth per base calculated with mosdepth on Illumina WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
 type bigWig
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22_illumina_genome.per-base_sorted.bw
-visibility hide
+visibility full
 autoScale off
 viewLimits 0:100
 
@@ -33,7 +33,7 @@ shortLabel HT22 PacBio WGS Depth
 longLabel Depth per base calculated with mosdepth on PacBio WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
 type bigWig
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22_pacbio_genome.per-base_sorted.bw
-visibility hide
+visibility full
 autoScale off
 viewLimits 0:100
 
