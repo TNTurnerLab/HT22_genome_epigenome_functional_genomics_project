@@ -66,7 +66,8 @@ sort -k1,1 -k2,2n HT22_genome.per-base.bed > HT22_genome.per-base_sorted.bed
 
 #bedGraph to bigWig
 ./bedGraphToBigWig HT22_genome.per-base_sorted.bed mm10.chrom.sizes HT22_genome.per-base_sorted.bw
+
+#final file
+mv HT22_genome.per-base_sorted.bw HT22_illumina_genome.per-base_sorted.bw
 ```
-
-
 
