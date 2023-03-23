@@ -144,3 +144,10 @@ type bigBed
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/EnhancerAtlas_2.0_Fetal_brain_mm10.bb
 visibility dense
 
+track EnhancerAtlas_2.0_Human_Enhancers
+shortLabel EnhancerAtlas 2.0 Human Enhancers
+longLabel EnhancerAtlas 2.0 Human Enhancers Mapped to mm10
+type bigBed
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/EnhancerAtlas_2.0_hs_mm10.bb
+visibility dense
+
