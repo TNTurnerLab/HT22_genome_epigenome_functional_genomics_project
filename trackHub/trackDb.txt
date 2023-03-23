@@ -140,7 +140,7 @@ viewLimits 0:15
 track EnhancerAtlas_2.0_Human_Fetal_Brain_Enhancers
 shortLabel EnhancerAtlas 2.0 Human Fetal Brain Enhancers
 longLabel EnhancerAtlas 2.0 Human Fetal Brain Enhancers Mapped to mm10
-type bed
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/EnhancerAtlas_2.0_Fetal_brain_mm10.bed
+type bedGraph
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/EnhancerAtlas_2.0_Fetal_brain_mm10.bedGraph
 visibility dense
 
