@@ -26,7 +26,7 @@ type bigWig
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22_illumina_genome.per-base_sorted.bw
 visibility full
 autoScale off
-viewLimits 0:100
+viewLimits 0:150
 
 track HT22_PacBio_WGS_Depth
 shortLabel HT22 PacBio WGS Depth
@@ -35,7 +35,7 @@ type bigWig
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22_pacbio_genome.per-base_sorted.bw
 visibility full
 autoScale off
-viewLimits 0:100
+viewLimits 0:150
 
 track HT22_Illumina_ATACSeq_Replicate1_Peaks
 shortLabel HT22 ATACSeq Rep1 Peaks
