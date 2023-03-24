@@ -37,6 +37,13 @@ visibility full
 autoScale off
 viewLimits 0:150
 
+track HT22_PacBio_WGS_pbsv_VCF
+shortLabel HT22_PacBio_pbsv_VCF
+longLabel SNV and INDEL calls generated using pbsv on PacBio WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type vcfTabix
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22.var.filter.sort.vcf.gz
+visibility squish
+
 track HT22_Illumina_ATACSeq_Replicate1_Peaks
 shortLabel HT22 ATACSeq Rep1 Peaks
 longLabel ATACSeq Peaks from Replicate 1 of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
@@ -164,4 +171,9 @@ longLabel VISTA Enhancers Mapped to mm10
 type bigBed
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/vista_enhancer_browser_table_from_vista_website_03212023_mm10.bb
 visibility dense
+
+
+
+HT22.var.filter.sort.vcf.gz
+
 
