@@ -1,26 +1,26 @@
 track HT22_PacBio_RNA_IsoSeq_Isoforms
-shortLabel HT22_PacBio_RNA_IsoSeq_Isoforms
+shortLabel HT22 PacBio IsoSeq
 longLabel Clustered Mapped Isoforms from HT-22 cell line PacBio RNA Iso-Seq data generated in the Laboratory of Tychele N. Turner, Ph.D.
 type bam
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22-isoseq.clustered.mapped.bam
 visibility squish
 
 track HT22_Illumina_WGS_DeepVariant_VCF
-shortLabel HT22_Illumina_WGS_DeepVariant_VCF
+shortLabel HT22 Illumina DeepVariant
 longLabel SNV and INDEL calls generated using DeepVariant on Illumina WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
 type vcfTabix
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22.deepvariant.illumina.wgs.vcf.gz
 visibility dense
 
 track HT22_PacBio_WGS_DeepVariant_VCF
-shortLabel HT22_PacBio_WGS_DeepVariant_VCF
+shortLabel HT22 PacBio DeepVariant
 longLabel SNV and INDEL calls generated using DeepVariant on PacBio WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
 type vcfTabix
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22.deepvariant.pacbio.wgs.vcf.gz
 visibility dense
 
 track HT22_Illumina_WGS_Depth
-shortLabel HT22 Illumina WGS Depth
+shortLabel HT22 Illumina Depth
 longLabel Depth per base calculated with mosdepth on Illumina WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
 type bigWig
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22_illumina_genome.per-base_sorted.bw
@@ -29,7 +29,7 @@ autoScale off
 viewLimits 0:150
 
 track HT22_PacBio_WGS_Depth
-shortLabel HT22 PacBio WGS Depth
+shortLabel HT22 PacBio Depth
 longLabel Depth per base calculated with mosdepth on PacBio WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
 type bigWig
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22_pacbio_genome.per-base_sorted.bw
@@ -38,32 +38,32 @@ autoScale off
 viewLimits 0:150
 
 track HT22_PacBio_WGS_pbsv_VCF
-shortLabel HT22_PacBio_pbsv_VCF
+shortLabel HT22 PacBio pbsv
 longLabel SV calls generated using pbsv on PacBio WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
 type vcfTabix
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22.var.filter.sort.vcf.gz
-visibility squish
+visibility pack
 
 track HT22_Illumina_WGS_manta_candidateSV_VCF
-shortLabel HT22_Illumina_WGS_manta_candidateSV_VCF
+shortLabel HT22 Illumina manta candidate SV
 longLabel Candidate SV calls generated using manta on Illumina WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
 type vcfTabix
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/candidateSV.vcf.gz
-visibility squish
+visibility hide
 
 track HT22_Illumina_WGS_manta_candidateSmallIndels_VCF
-shortLabel HT22_Illumina_WGS_manta_candidateSmallIndels_VCF
+shortLabel HT22 Illumina manta candidate small indels
 longLabel Candidate small indel calls generated using manta on Illumina WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
 type vcfTabix
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/candidateSmallIndels.vcf.gz
-visibility squish
+visibility dense
 
 track HT22_Illumina_WGS_manta_diploidSV_VCF
-shortLabel HT22_Illumina_WGS_manta_diploidSV_VCF
+shortLabel HT22 Illumina manta diploid SV
 longLabel Diploid SV calls generated using manta on Illumina WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
 type vcfTabix
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/diploidSV.vcf.gz
-visibility squish
+visibility dense
 
 track HT22_Illumina_ATACSeq_Replicate1_Peaks
 shortLabel HT22 ATACSeq Rep1 Peaks
