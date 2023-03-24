@@ -44,6 +44,27 @@ type vcfTabix
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22.var.filter.sort.vcf.gz
 visibility squish
 
+track HT22_Illumina_WGS_manta_candidateSV_VCF
+shortLabel HT22_Illumina_WGS_manta_candidateSV_VCF
+longLabel Candidate SV calls generated using manta on Illumina WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type vcfTabix
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/candidateSV.vcf.gz
+visibility squish
+
+track HT22_Illumina_WGS_manta_candidateSmallIndels_VCF
+shortLabel HT22_Illumina_WGS_manta_candidateSmallIndels_VCF
+longLabel Candidate small indel calls generated using manta on Illumina WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type vcfTabix
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/candidateSmallIndels.vcf.gz
+visibility squish
+
+track HT22_Illumina_WGS_manta_diploidSV_VCF
+shortLabel HT22_Illumina_WGS_manta_diploidSV_VCF
+longLabel Diploid SV calls generated using manta on Illumina WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type vcfTabix
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/diploidSV.vcf.gz
+visibility squish
+
 track HT22_Illumina_ATACSeq_Replicate1_Peaks
 shortLabel HT22 ATACSeq Rep1 Peaks
 longLabel ATACSeq Peaks from Replicate 1 of Illumina ATACSeq generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
