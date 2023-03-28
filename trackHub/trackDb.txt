@@ -37,6 +37,15 @@ visibility full
 autoScale off
 viewLimits 0:150
 
+track HT22_PacBio_WGS_Methylation
+shortLabel HT22 PacBio Methylation
+longLabel Methylation calculated with pb-CpG-tools on PacBio WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+type bigWig
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT22.combined.bw
+visibility full
+autoScale off
+viewLimits 0:100
+
 track HT22_PacBio_WGS_pbsv_VCF
 shortLabel HT22 PacBio pbsv
 longLabel SV calls generated using pbsv on PacBio WGS data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
