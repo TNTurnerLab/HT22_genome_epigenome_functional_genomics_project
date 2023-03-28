@@ -178,7 +178,7 @@ track HT22_Illumina_Hi-C_Interactions
 shortLabel HT22 Illumina Hi-C Interactions
 longLabel Hi-C interactions generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
 type bigInteract
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT-22_HiC-merged_loops_30.bedinteract
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/HT-22_HiC-merged_loops_30.bb
 spectrum on
 scoreMin 175
 maxHeightPixels 300:150:20
