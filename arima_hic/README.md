@@ -1,4 +1,4 @@
-# This directory contains information on the running of the Illumina ATAQ-seq data
+# This directory contains information on the analysis of the Arima Hi-C data
 
 Author: Jeffrey K. Ng
 
