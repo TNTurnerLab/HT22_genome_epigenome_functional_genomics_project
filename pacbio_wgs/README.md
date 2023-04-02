@@ -5,14 +5,14 @@ Author: Tychele N. Turner, Ph.D.
 Date: March 22, 2023
 
 ## HiCanu Assembly
-### Server submssion (run on WashU RIS LSF server, basic submission components listed below)
+### Server submission (run on WashU RIS LSF server, basic submission components listed below)
 ```
 bsub -R 'span[hosts=1] rusage[mem=310G]' -g /tychele/dv -n 31 -M 310G -q tychele -G compute-tychele -oo HT22_hicanu.oo -a "docker(tychelewustl/canu:2.2)" sh running_hicanu.sh
 ```
 
 ## Hifiasm Assembly on PacBio Reads only
 
-### Server submssion (run on WashU RIS LSF server, basic submission components listed below)
+### Server submission (run on WashU RIS LSF server, basic submission components listed below)
 ```
 bsub -R 'span[hosts=1] rusage[mem=2700G]' -g /tychele/dv -n 62 -M 2700G -q tychele -G compute-tychele -oo ht22_hifiasm.oo -a "docker(tychelewustl/hifiasm:version2)" sh running_hifiasm_ht22.sh
 ```
@@ -33,13 +33,13 @@ sh post_hifiasm_ht22.sh
 wget http://hgdownload.cse.ucsc.edu/goldenpath/mm10/bigZips/mm10.fa.gz
 ```
 
-### Server submssion (run on WashU RIS LSF server, basic submission components listed below)
+### Server submission (run on WashU RIS LSF server, basic submission components listed below)
 ```
 bsub -R 'span[hosts=1] rusage[mem=300G]' -g /tychele/dv -n 31 -M 300G -q tychele -G compute-tychele -oo map_reads.oo -a "docker(tychelewustl/pbseqtools:version1)" sh map_reads.sh
 ```
 
 ## DeepVariant
-### Server submssion (run on WashU RIS LSF server, basic submission components listed below)
+### Server submission (run on WashU RIS LSF server, basic submission components listed below)
 ```
 SAMPLE='HT22'
 bsub -g /tychele/dv -n 8 -M 100GB -G compute-tychele -R 'rusage[mem=100GB] span[hosts=1]' -q tychele -oo "$SAMPLE"_deepvariant.oo -a 'docker(google/deepvariant:1.0.0)' sh deepvariant.sh "$SAMPLE"
@@ -54,7 +54,7 @@ bsub -g /tychele/dv -n 8 -M 100GB -G compute-tychele -R 'rusage[mem=100GB] span[
 wget https://github.com/brentp/mosdepth/releases/download/v0.3.3/mosdepth
 ```
 
-### Server submssion (run on WashU RIS LSF server, basic submission components listed below)
+### Server submission (run on WashU RIS LSF server, basic submission components listed below)
 ```
 bsub -g /tychele/dv -n 8 -M 50GB -G compute-tychele -R 'rusage[mem=50GB] span[hosts=1]' -q general -oo "$SAMPLE"_"$CHROM"_mosdepth.oo -a 'docker(tychelewustl/pbseqtools:version1)' sh mosdepth.sh "$SAMPLE" "$CHROM"
 ```
