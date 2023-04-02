@@ -28,6 +28,9 @@ In this project, we assess genomic, epigenomic, and functional genomic character
 
 We have deposited our raw sequencing data in SRA under our NCBI BioProject at https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA938057
 
+### Track Hub
+
+We built a custom track hub to load in the UCSC Genome Bowser and it is available at https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/hub.txt
 
 
 
