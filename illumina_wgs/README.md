@@ -5,7 +5,7 @@ Author: Tychele N. Turner, Ph.D.
 Date: March 18, 2023
 
 ## Mapping Reads
-### Server submssion (run on WashU RIS LSF server, basic submission components listed below)
+### Server submission (run on WashU RIS LSF server, basic submission components listed below)
 ```
 bsub -R 'span[hosts=1] rusage[mem=300G]' -n 31 -M 300G -q tychele -G compute-tychele -oo map_reads.oo -a "docker(tychelewustl/bwa:version1)" sh map_reads.sh
 ```
@@ -18,7 +18,7 @@ wget http://hgdownload.cse.ucsc.edu/goldenpath/mm10/bigZips/mm10.fa.gz
 ```
 
 ## DeepVariant
-### Server submssion (run on WashU RIS LSF server, basic submission components listed below)
+### Server submission (run on WashU RIS LSF server, basic submission components listed below)
 ```
 SAMPLE='HT22'
 bsub -g /tychele/dv -n 8 -M 100GB -G compute-tychele -R 'rusage[mem=100GB] span[hosts=1]' -q tychele -oo "$SAMPLE"_deepvariant.oo -a 'docker(google/deepvariant:1.0.0)' sh deepvariant.sh "$SAMPLE"
@@ -33,7 +33,7 @@ bsub -g /tychele/dv -n 8 -M 100GB -G compute-tychele -R 'rusage[mem=100GB] span[
 wget https://github.com/brentp/mosdepth/releases/download/v0.3.3/mosdepth
 ```
 
-### Server submssion (run on WashU RIS LSF server, basic submission components listed below)
+### Server submission (run on WashU RIS LSF server, basic submission components listed below)
 ```
 bsub -g /tychele/dv -n 8 -M 50GB -G compute-tychele -R 'rusage[mem=50GB] span[hosts=1]' -q general -oo "$SAMPLE"_"$CHROM"_mosdepth.oo -a 'docker(tychelewustl/pbseqtools:version1)' sh mosdepth.sh "$SAMPLE" "$CHROM"
 ```
