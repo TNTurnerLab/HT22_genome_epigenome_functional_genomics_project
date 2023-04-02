@@ -48,30 +48,30 @@ viewLimits 0:100
 
 track HT22_Illumina_RNASeq_Replicate1
 shortLabel HT22 RNAseq rep1
-longLabel Replicate 1 Uniquely Mapped Read Depth on PolyA RNASeq data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+longLabel Replicate 1 Normalized RNASeq Signal on PolyA RNASeq data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
 type bigWig
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/ht22_replicate1_rnaseq_genome_uniq.bw
 visibility full
 autoScale off
-viewLimits 0:150
+viewLimits 0:15
 
 track HT22_Illumina_RNASeq_Replicate2
 shortLabel HT22 RNAseq rep2
-longLabel Replicate 2 Uniquely Mapped Read Depth on PolyA RNASeq data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+longLabel Replicate 2 Normalized RNASeq Signal on PolyA RNASeq data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
 type bigWig
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/ht22_replicate2_rnaseq_genome_uniq.bw
 visibility full
 autoScale off
-viewLimits 0:150
+viewLimits 0:15
 
 track HT22_Illumina_RNASeq_Replicate3
 shortLabel HT22 RNAseq rep3
-longLabel Replicate 3 Uniquely Mapped Read Depth on PolyA RNASeq data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
+longLabel Replicate 3 Normalized RNASeq Signal on PolyA RNASeq data generated on the HT-22 cell line in the Laboratory of Tychele N. Turner, Ph.D.
 type bigWig
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/tycheleturner/Turner_Lab_Track_Hubs/HT22_genome_epigenome_functional_genomics_project/ht22_replicate3_rnaseq_genome_uniq.bw
 visibility full
 autoScale off
-viewLimits 0:150
+viewLimits 0:15
 
 track HT22_PacBio_WGS_pbsv_VCF
 shortLabel HT22 PacBio pbsv
