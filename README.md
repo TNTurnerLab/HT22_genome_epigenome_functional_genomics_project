@@ -1,7 +1,7 @@
 # HT22 Genome, Epigenome, and Functional Genomics Project
 
 ## Laboratory of Tychele N. Turner, Ph.D.
-## March 18, 2023
+## April 2, 2023
 
 ## Project contributors:
 
@@ -9,6 +9,8 @@
 * Jeffrey K. Ng
 * Hillary Heins
 * Juana Manuel
+
+![HT22](image/HT-22_artwork_smaller.jpg "HT-22")
 
 ## Project Information
 
