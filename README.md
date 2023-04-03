@@ -1,5 +1,7 @@
 # HT22 Genome, Epigenome, and Functional Genomics Project
 
+![HT22](image/HT-22_artwork_smaller.jpg "HT-22")
+
 ## Laboratory of Tychele N. Turner, Ph.D.
 ## April 2, 2023
 
@@ -9,8 +11,6 @@
 * Jeffrey K. Ng
 * Hillary Heins
 * Juana Manuel
-
-![HT22](image/HT-22_artwork_smaller.jpg "HT-22")
 
 ## Project Information
 
